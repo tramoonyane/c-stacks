@@ -4,8 +4,10 @@
  * @head: Double pointer to the head of the stack
  * @counter: Line number counter for error messages
  *
- * Description: Subtracts the top element of the stack from the second top element.
- * If the stack contains less than two elements, prints an error message
+ * Description: Subtracts the top element of the stack
+ * from the second top element.
+ * If the stack contains less than two elements,
+ * prints an error message
  * "L<counter>: can't sub, stack too short" to stderr and exits with EXIT_FAILURE.
  * This function assumes a doubly linked list representation of the stack.
  *
