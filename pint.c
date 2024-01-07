@@ -4,9 +4,12 @@
  * @head: Double pointer to the head of the stack
  * @counter: Line number counter for potential error messages
  *
- * Description: Prints the value at the top of the stack. If the stack is empty,
- * it prints an error message "L<counter>: can't pint, stack empty" to stderr
- * and exits with EXIT_FAILURE. This function assumes a doubly linked list
+ * Description: Prints the value at the top of the stack.
+ * If the stack is empty,
+ * it prints an error message "L<counter>: can't pint,
+ * stack empty" to stderr
+ * and exits with EXIT_FAILURE.
+ * This function assumes a doubly linked list
  * representation of the stack.
  *
  * @head: Pointer to the head pointer of the stack
