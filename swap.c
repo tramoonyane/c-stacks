@@ -8,7 +8,8 @@
  * If the stack contains less than two elements, prints an error message
  * "L<counter>: can't swap, stack too short" to stderr
  * and exits with EXIT_FAILURE.
- * This function assumes a doubly linked list representation of the stack.
+ * This function assumes a doubly linked list
+ * representation of the stack.
  *
  * @head: Pointer to the head pointer of the stack
  * @counter: Line number from the bytecode file for error tracking
