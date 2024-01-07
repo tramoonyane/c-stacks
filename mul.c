@@ -1,9 +1,17 @@
 #include "monty.h"
 /**
- * f_mul - multiplies the top two elements of the stack.
- * @head: stack head
- * @counter: line_number
- * Return: no return
+ * f_mul - Multiplies the top two elements of the stack
+ * @head: Double pointer to the head of the stack
+ * @counter: Line number counter for potential error messages
+ *
+ * Description: Multiplies the top two elements of the stack. If the stack
+ * contains less than two elements, it prints an error message
+ * "L<counter>: can't mul, stack too short" to stderr and exits with
+ * EXIT_FAILURE. This function assumes a doubly linked list
+ * representation of the stack.
+ *
+ * @head: Pointer to the head pointer of the stack
+ * @counter: Line number from the bytecode file for error tracking
  */
 void f_mul(stack_t **head, unsigned int counter)
 {
