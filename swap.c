@@ -5,7 +5,8 @@
  * @counter: Line number counter for error messages
  *
  * Description: Swaps the top two elements of the stack.
- * If the stack contains less than two elements, prints an error message
+ * If the stack contains less than two elements,
+ * prints an error message
  * "L<counter>: can't swap, stack too short" to stderr
  * and exits with EXIT_FAILURE.
  * This function assumes a doubly linked list
