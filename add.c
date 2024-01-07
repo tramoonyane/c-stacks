@@ -6,7 +6,8 @@
  * Description: Adds the top two elements of the stack and
  * stores the result in
  * the second node from the top. If the stack contains less than two elements,
- * it prints an error message "L<counter>: can't add, stack too short" to stderr
+ * it prints an error message "L<counter>: can't add,
+ * stack too short" to stderr
  * and exits with EXIT_FAILURE. This function assumes a doubly linked list
  * representation of the stack.
  *
