@@ -1,9 +1,15 @@
 #include "monty.h"
 /**
- * f_queue - prints the top
- * @head: stack head
- * @counter: line_number
- * Return: no return
+ * f_queue - Sets a value to the bus.lifi variable
+ * @head: Double pointer to the head of the stack (unused)
+ * @counter: Line number counter for potential error messages (unused)
+ *
+ * Description: Sets a value (1 in this case) to the bus.lifi variable.
+ * This function doesn't perform stack operations but potentially initializes
+ * a variable named bus.lifi.
+ *
+ * @head: Pointer to the head pointer of the stack (unused)
+ * @counter: Line number (unused)
  */
 void f_queue(stack_t **head, unsigned int counter)
 {
@@ -13,10 +19,16 @@ bus.lifi = 1;
 }
 
 /**
- * addqueue - add node to the tail stack
- * @n: new_value
- * @head: head of the stack
- * Return: no return
+ * addqueue - Adds an element to the end of the queue
+ * @head: Double pointer to the head of the queue
+ * @n: Value to be added to the queue
+ *
+ * Description: Adds an element with the value @n to the end of the queue.
+ * If memory allocation for the new node fails, it prints an error message "Error".
+ * This function assumes a doubly linked list representation of the queue.
+ *
+ * @head: Pointer to the head pointer of the queue
+ * @n: Value to be added to the queue
  */
 void addqueue(stack_t **head, int n)
 {
