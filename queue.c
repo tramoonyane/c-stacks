@@ -24,7 +24,8 @@ bus.lifi = 1;
  * @n: Value to be added to the queue
  *
  * Description: Adds an element with the value @n to the end of the queue.
- * If memory allocation for the new node fails, it prints an error message "Error".
+ * If memory allocation for the new node fails,
+ * it prints an error message "Error".
  * This function assumes a doubly linked list representation of the queue.
  *
  * @head: Pointer to the head pointer of the queue
